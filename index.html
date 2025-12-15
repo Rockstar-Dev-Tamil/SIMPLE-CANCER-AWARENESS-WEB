@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cancer Awareness & Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="overlay">
+            <h1>Cancer Awareness & Support</h1>
+            <p>Together, we spread awareness, strength, and hope.</p>
+        </div>
+    </header>
+
+    <section class="quotes">
+        <h2>Words of Hope 💗</h2>
+        <p id="quote">Loading inspirational quote...</p>
+        <button onclick="getQuote()">New Quote</button>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Cancer Awareness & Support</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
